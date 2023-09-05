@@ -8,6 +8,11 @@ function loadView (view) {
 const routes = [
   {
     path: '/',
+    name: 'entrance',
+    component: loadView('EntranceView')
+  },
+  {
+    path: '/home',
     name: 'home',
     component: loadView('HomeView')
   },

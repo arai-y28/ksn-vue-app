@@ -2,7 +2,8 @@
   <v-app>
     <v-main>
       <nav>
-        <router-link to="/">Home</router-link> |
+        <router-link to="/">Entrance</router-link> |
+        <router-link to="/home">Home</router-link> |
         <router-link to="/about">Detail</router-link>
         <router-view/>
       </nav>
